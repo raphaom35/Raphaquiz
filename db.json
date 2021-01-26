@@ -1,6 +1,7 @@
 {
     "bg": "https://i.pinimg.com/originals/14/76/d9/1476d90390842ac1a04aae843f921d27.jpg?resize=1536%2C1208&ssl=1",
     "title": "Quiz PSG",
+    "currentURL":"https://raphaquiz.vercel.app/",
     "description": "Vamos ver se voce conheçe sobre o PSG",
     "questions": [
       {
@@ -37,7 +38,8 @@
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
         "success": "#4CAF50",
-        "gitBg": "#171B35"
+        "gitBg": "#171B35",
+        "buttonHover":"#ff4321"
       },
       "borderRadius": "4px"
     }
