@@ -1,4 +1,3 @@
-// src/components/GitHubCorner/index.js
 import React from 'react';
 import styled from 'styled-components';
 
@@ -11,7 +10,7 @@ const Wrapper = styled.div`
 `;
 
 const SVGWrapper = styled.svg`
-  fill: ${({ theme }) => theme.colors.gitBg};
+  fill: ${({ theme }) => theme.colors.secondary};
   color: ${({ theme }) => theme.colors.contrastText};
   cursor: pointer;
   &:hover .octo-arm{

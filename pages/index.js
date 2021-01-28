@@ -6,18 +6,12 @@ import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 import Footer from '../src/components/Footer';
+import QuizContainer from '../src/components/QuizContainer';
 
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
+
 
 export default function Home() {
   const router = useRouter();
@@ -35,26 +29,19 @@ export default function Home() {
           <Widget.Content>
             <form onSubmit={function (e) {
               e.preventDefault();
-
               router.push(`quiz?name=${name}`);
               console.log('Fazendo uma submisão por meio do react');
             }}
             >
-              <input
-                onChange={function (e) {
-                  setName(e.target.value);
-                }}
-                placeholder="Digite o seu nome para jogar"
-                type="text"
+              <Input
+                 name="nomeDoUsuario"
+                 onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                 placeholder="Diz ai seu nome"
+                 value={name}
               />
-              <button
-                type="submit"
-                disabled={name === ''}
-              >
-                Jogar
-                {' '}
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+               {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
