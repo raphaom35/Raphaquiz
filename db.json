@@ -5,30 +5,33 @@
     "description": "Vamos ver se voce conheçe sobre o PSG",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://conteudo.imguol.com.br/c/esporte/0c/2020/08/11/bandeira-do-psg-no-parque-dos-principes-em-paris-1597159649822_v2_450x600.jpg",
+        "title": "Qual o ano  de fundação do clube?",
         "description": "Essa é pra aquecer",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "1933",
+          "1970",
+          "1980",
+          "1960"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "image": "https://brasileirosemparis.com/wp-content/uploads/2020/03/Paris-Saint-Germain-1024x675.jpg",
+        "title": "Qual o nome do estadio do psg?",
         "description": "Faz tempo em haha",
-        "answer": 0,
+        "answer": 3,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Anfield",
+           "Allianz Arena",
+           "Parc des Princes",
+           "Emirates"
         ]
       }
     ],
     "external": [
-      ""
+      "https://harry-potter-quiz.brunogerbasi.vercel.app/",
+      "https://aluraquiz-coffee.leonardot07.vercel.app/"
     ],
     "theme": {
       "colors": {
