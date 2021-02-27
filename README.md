@@ -7,7 +7,7 @@ PSG Quiz
 Projeto imersão React Alura Quiz ❓ sobre o PSG 
 </p>
 <p align="center">
-Link:<a href="raphaquiz.vercel.app/" >PSG Quiz</a>
+Link:<a href="https://raphaquiz.vercel.app/" >PSG Quiz</a>
 </p>
 
 <p align="center">
