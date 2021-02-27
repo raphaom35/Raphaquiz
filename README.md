@@ -14,7 +14,7 @@ Projeto imersão React Alura Quiz ❓ sobre o PSG
 </p>
 
 <div align="center">
-<img src="/quiz.PNG" width="400" />
+<img src="/quiz.PNG" width="600" />
 
 </div>
 
